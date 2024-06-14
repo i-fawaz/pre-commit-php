@@ -19,7 +19,7 @@ title="PHP Codesniffer"
 # Possible command names of this tool
 local_command="phpcs.phar"
 vendor_command="vendor/bin/phpcs"
-global_command="phpcs"
+global_command="./backend/app/Vendor/squizlabs/php_codesniffer/bin/phpcs"
 
 # Print a welcome and locate the exec for this tool
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
